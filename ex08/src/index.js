@@ -1,5 +1,5 @@
 
-import { find } from 'lodash';
+const _ = require('lodash');
 
 var users = [
     {
@@ -41,7 +41,7 @@ function getUsers() {
 function findUser(lastName, gender) {
     try {
 
-        var users = find(users, { lastName, gender }); 
+        var users = _.find(users, { lastName, gender }); 
         console.log(users);
         var iFindUser = (username + is + lastname, iFindUser);
 
@@ -61,6 +61,5 @@ findUser("Doe", "female");
 findUser("Carrey", "male");
 findUser("Winslet", "female");
 
-export default findUser;
-
+module.exports = findUser;
 
