@@ -43,7 +43,7 @@ function findUser(lastName, gender) {
 
         var users = _.find(users, { lastName, gender }); 
         console.log(users);
-        var iFindUser = (username + is + lastname, iFindUser);
+                var iFindUser = (`$(username) + is + $(lastname)`, `${iFindUser}`);
 
         return iFindUser;
 
@@ -62,4 +62,5 @@ findUser("Carrey", "male");
 findUser("Winslet", "female");
 
 module.exports = findUser;
+
 
