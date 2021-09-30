@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sabiiii/Repo17/issues"
   },
-  "homepage": "https://github.com/Sabiiii/Repo17#readme"
+  "homepage": "https://github.com/Sabiiii/Repo17#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
